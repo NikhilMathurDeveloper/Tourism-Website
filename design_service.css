@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    border:0;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 10%;
+    background-color: black;
+}
+nav{
+    order:1;
+}
+
+.cta {
+    order:2;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li {
+    display:inline-block;
+    padding: 0px 20px;
+
+}
+.nav_links li a{
+    transition:all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color:#0088a9;
+}
+
+.nav_links li:nth-child(1){
+    padding: 0 20px 0 0;
+
+}
+
+button{
+    padding:9px 25px;
+    margin-left:20px;
+    background-color:rgba(0,136,169,1);
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:rgba(0,136,169,0.8);
+
+}
+body{
+    background-color:peachpuff;
+    background-size:cover;
+    background-position:center;
+
+}
+
+
+.container{
+    height:75vh;
+    width:50%;
+    background:rgba(0,0,0,0.6);
+    position:absolute;
+    box-shadow: 0 0 20px 0 #999;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin-top:50px;
+    padding:0 20px;
+
+}
+
+
+.container h1{
+    color: white;
+    margin-top:50px;
+    font-family:"Roboto", sans-serif;
+
+}
+
+.container p{
+    color:white;
+    margin-top:60px;
+    font-family:"Roboto", sans-serif;
+    font-size:large;
+
+
+}
+
+
+.equipment{
+    width:300px;
+    text-align:center;
+    height:200px;
+    margin-top:20px;
+    border-radius:20px;
+
+}
+
+.price{
+    width:500px;
+    text-align:center;
+    height:400px;
+    margin-top:700px;
+    margin-left:480px;
+    border-radius:20px;
+    margin-bottom: 20px;
+
+
+}
